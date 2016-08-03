@@ -1,12 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="ngportfolio">
 <head>
   <meta charset="UTF-8">
-  <title>Rigo's Portfolio</title>
+  <title>Rigoberto Hernandez's Portfolio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+<navbar></navbar>
+<ng-view></ng-view>
 
-<script src="js/app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-route.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-animate.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/routes.js"></script>
+  <script src="js/directives/navbar.js"></script>
 </body>
 </html>
