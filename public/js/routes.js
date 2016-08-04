@@ -15,13 +15,10 @@
     .when('/aboutMe', {
       templateUrl: "/html/views/aboutMe.html"
     })
-    .when('/photos', {
-      templateUrl: "/html/views/photography.html"
-    })
     .when('/resume', {
       templateUrl: "/html/views/resume.html"
     })
-    .when('/videos', {
+    .when('/video-photography', {
       templateUrl: "/html/views/videoProjects.html"
     })
     .when('/webProjects', {
