@@ -12,7 +12,7 @@
     .when('/contact', {
       templateUrl: "/html/views/contact.html"
     })
-    .when('/aboutMe', {
+    .when('/work', {
       templateUrl: "/html/views/aboutMe.html"
     })
     .when('/resume', {
