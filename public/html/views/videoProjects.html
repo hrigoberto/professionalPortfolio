@@ -1,15 +1,18 @@
-
-<div class="row" style="text-align: center;">
-  <iframe width="640" height="390" src="https://www.youtube.com/embed/uXkbP5fz1Ts" frameborder="0" allowfullscreen></iframe>
-</div>
-<br>
-<br>
-<div class="container" ng-controller="CarouselController">
-  <div uib-carousel interval="myInterval" active="active">
-    <div uib-slide ng-repeat="slide in slides track by $index" index="$index" >
-      <img ng-src="{{ slide.image }}">
+<div class="row text-center">
+  <h1>2016 Demo Reel</h1>
+  <div class="row" style="text-align: center;">
+    <iframe width="640" height="390" src="https://www.youtube.com/embed/uXkbP5fz1Ts" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <br>
+  <br>
+  <h1>2016 Photo Gallery</h1>
+  <div class="container" ng-controller="CarouselController">
+    <div uib-carousel interval="myInterval" active="active">
+      <div uib-slide ng-repeat="slide in slides track by $index" index="$index" >
+        <img ng-src="{{ slide.image }}">
+      </div>
     </div>
   </div>
+  <h1>You can find my full gallery <a href="http://www.rh3productions.com/">here</a></h1>
 </div>
-
-<br><br>
+  <br><br>
