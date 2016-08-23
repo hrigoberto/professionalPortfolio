@@ -7,7 +7,7 @@
   function MailController($scope, $http){
     $scope.sendMail = sendMail;
     // $scope.msg = msg;
-    var baseUrl = 'https://localhost:8080/#/send'
+    var baseUrl = 'http://localhost:8080/send'
 
     function sendMail(msg){
       return $http.post(baseUrl, msg)
