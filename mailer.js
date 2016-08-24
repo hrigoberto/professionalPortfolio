@@ -9,7 +9,7 @@ router.post('/send', function(req, res, next){
   var email = {
     from: req.body.email,
     to: 'hernadezrigoberto@gmail.com',
-    subject: req.body.name,
+    subject: req.body.name + 'PortfolioPageContact',
     text: req.body.text
   }
 
