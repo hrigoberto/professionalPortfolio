@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 var mailer = require('./mailer.js');
 
 var port = process.env.PORT || 8080;
-var apikey = process.env.API || require('./config').apiKey;
+// var apikey = process.env.API || require('./config').apiKey;
 
 server.use(bodyParser.json());
 server.use(bodyParser.urlencoded({extended: true}));
