@@ -7,7 +7,7 @@
   function MailController($scope, $http){
     $scope.sendMail = sendMail;
     // $scope.msg = msg;
-    var baseUrl = 'https://rh3portfolio.herokuapp.com/#/send';
+    var baseUrl = 'https://rh3portfolio.herokuapp.com/send';
 
     function sendMail(msg){
       return $http.post(baseUrl, msg)
