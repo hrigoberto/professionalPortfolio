@@ -11,12 +11,12 @@ router.post('/send', function(req, res, next){
     to: 'hernadezrigoberto@gmail.com',
     subject: req.body.name + 'PortfolioPageContact',
     text: req.body.text
-  }
+  };
 
   mailgun.messages().send(email, function(error, body){
     console.log(error);
     next();
   });
-})
+});
 
 module.exports = router;
