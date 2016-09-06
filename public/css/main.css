@@ -41,3 +41,10 @@ h2 span {
    padding: 10px;
    border-radius: 4%;
 }
+
+#navbar {
+  background-color: #121F27;
+  background-image: linear-gradient(to right, #121F27 0%, #21384B 100%);
+  background-blend-mode: saturation;
+  border-radius: 4%;
+}
